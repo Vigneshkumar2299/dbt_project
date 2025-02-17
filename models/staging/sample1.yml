@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: dbt_poc
+    database: gwc-poc
+    tables:
+      - name: iot_data
