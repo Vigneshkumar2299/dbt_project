@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_poc
+    database: gwc-poc
+    schema: dbt_poc
+    tables:
+      - name: iot_data
+        description: "IoT sensor readings data"
